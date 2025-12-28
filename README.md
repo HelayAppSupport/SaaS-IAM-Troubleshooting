@@ -1,21 +1,68 @@
-# SaaS-IAM-Troubleshooting
+# SaaS IAM Troubleshooting – Application Support Portfolio
 
-## Overview
-This repository contains sample Application Support projects focused on troubleshooting SaaS, IAM, SSO, MFA, and Active Directory issues in enterprise environments. It is designed to demonstrate practical support scenarios, scripts, and documentation relevant for Application Support Engineers.
+This repository showcases real-world Application Support and IAM troubleshooting scenarios aligned with L2/L3 enterprise support roles.
 
-## Structure
-- `Scenarios/` – Contains real-world troubleshooting scenarios for common application, authentication, and access issues.
-- `Scripts/` – Includes sample scripts to automate account checks, access provisioning, and common troubleshooting tasks.
-- `Documentation/` – Guides, SOPs, and best practices for supporting SaaS/IAM systems.
+It is designed to demonstrate hands-on experience in:
+- SaaS Application Support
+- Identity and Access Management (IAM)
+- Single Sign-On (SSO)
+- Multi-Factor Authentication (MFA)
+- Active Directory and Azure AD
+- Incident management and root-cause analysis
 
-## Technologies & Tools
-- Active Directory (AD)
-- SSO & MFA systems
-- Windows, macOS, Linux
-- ServiceNow, Jira
-- PowerShell, Bash, Python
+This is NOT a software engineering project.
+No production applications are built here.
+The focus is operational troubleshooting, incident response, and support workflows.
 
-## Purpose
-Designed as a portfolio project to showcase troubleshooting skills, automation, and process optimization for enterprise SaaS and IAM systems.
-# SaaS-IAM-Troubleshooting
-Sample Application Support projects focusing on SaaS, IAM, SSO, MFA, and Active Directory troubleshooting for enterprise environments
+---
+
+## What This Repository Demonstrates
+
+- How application support engineers investigate access and authentication failures
+- How IAM issues are diagnosed across AD, SSO, and MFA
+- How incidents are documented and resolved in enterprise environments
+- Clear communication and structured troubleshooting processes
+- Alignment with real ticket-based workflows (ServiceNow / Jira)
+
+---
+
+## Repository Structure
+
+
+---
+
+## Example Scenarios Covered
+
+- Active Directory user account status checks
+- MFA authentication failures
+- SSO login issues
+- Access and permission troubleshooting
+- Identity lifecycle support (joiner/mover/leaver)
+
+---
+
+## Intended Audience
+
+This repository is intended for:
+- Hiring managers
+- Recruiters
+- Technical interviewers
+
+For roles such as:
+- Application Support Engineer
+- IAM Support Analyst
+- Technical Support Engineer (SaaS)
+- L2/L3 Support Engineer
+
+---
+
+## About the Author
+
+Created by an Application Support Engineer with 5+ years of experience supporting enterprise users, SaaS platforms, and IAM systems in remote and hybrid environments.
+
+Focus areas include:
+- SSO & MFA troubleshooting
+- Active Directory & Azure AD
+- Incident management and escalation
+- Process improvement and automation
+
