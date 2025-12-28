@@ -1,23 +1,54 @@
-# Scenario 01: SSO Login Issue
+# Scenario: SSO Login Failure for SaaS Application
 
-## Description
-A user is unable to login to the SaaS application via Single Sign-On (SSO). Error message: "Authentication failed."
+## Role Context
+Application Support Engineer (L2/L3)
 
-## Steps Taken
-1. Verified user's account exists in Active Directory.
-2. Checked group memberships and permissions.
-3. Reviewed SSO configuration in identity provider (IdP).
-4. Confirmed MFA is not blocking login.
-5. Tested login using a test account.
+## Business Impact
+User unable to access a critical SaaS application required for daily work.
+
+## Reported Issue
+User reports receiving an SSO error when attempting to log in:
+> “Authentication failed. Contact your administrator.”
+
+## Environment
+- SaaS Application: Example CRM Platform
+- Identity Provider (IdP): Azure AD / Okta
+- Authentication Method: SSO with MFA
+- User Directory: Active Directory
+
+## Troubleshooting Steps
+
+### 1. Verify User Account Status
+- Confirm user exists in Active Directory
+- Check if account is enabled
+- Verify password not expired or locked
+
+### 2. Check Group Membership
+- Validate required AD security groups for application access
+- Confirm recent group changes were synced to IdP
+
+### 3. Validate SSO Configuration
+- Check SAML assertion attributes
+- Verify NameID / Email matches SaaS user profile
+
+### 4. MFA Validation
+- Confirm MFA device is registered
+- Check recent MFA failure logs
+
+### 5. Log Review
+- Review IdP sign-in logs
+- Identify error codes or policy failures
 
 ## Resolution
-- Identified that user's AD account was disabled.
-- Reactivated the account.
-- User successfully logged in via SSO.
-- Updated documentation for onboarding process to prevent future issues.
+User was missing the required AD group for application access.  
+Group was added and directory sync was forced.
 
-## Tools Used
-- Active Directory Users & Computers
-- Identity Provider Admin Console
-- ServiceNow (ticketing)
-- Slack (communication)
+## Outcome
+User successfully authenticated via SSO and regained access.
+
+## Skills Demonstrated
+- SaaS Application Support
+- IAM Troubleshooting
+- SSO & MFA Analysis
+- Active Directory
+- Incident Resolution
