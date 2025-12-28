@@ -66,3 +66,16 @@ Focus areas include:
 - Incident management and escalation
 - Process improvement and automation
 
+## Scenarios
+
+This repository includes real-world Application Support and IAM troubleshooting scenarios based on enterprise environments.
+
+### Included Scenarios
+- **SSO Login Failure (Azure AD + SaaS App)**  
+  Troubleshooting SAML authentication issues, group assignments, and access authorization failures.
+
+These scenarios demonstrate practical experience in:
+- IAM & SSO troubleshooting
+- SaaS application support
+- Incident management and root cause analysis
+- Enterprise identity systems
